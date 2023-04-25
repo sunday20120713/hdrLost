@@ -1,0 +1,13 @@
+#use_frameworks!
+
+platform :ios, '9.0'
+
+target 'ZL3DWebKit_Example' do
+  pod 'ZL3DWebKit', :path => '../'
+
+  target 'ZL3DWebKit_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

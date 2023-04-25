@@ -1,0 +1,40 @@
+{
+  "name": "ZL3DWebKit",
+  "version": "0.1.0",
+  "summary": "A short description of ZL3DWebKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/luokan/ZL3DWebKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "luokan": "kanluo91@yahoo.com"
+  },
+  "source": {
+    "git": "https://github.com/luokan/ZL3DWebKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "static_framework": true,
+  "source_files": "ZL3DWebKit/Classes/**/*",
+  "resource_bundles": {
+    "ZL3DWebKit": [
+      "ZL3DWebKit/Assets/*"
+    ]
+  },
+  "resources": [
+    "ZL3DWebKit/ZL3DWeb.bundle",
+    "ZL3DWebKit/ZL3DWeb009.bundle"
+  ],
+  "dependencies": {
+    "JKSandBoxManager": [
+
+    ],
+    "SSZipArchive": [
+
+    ]
+  }
+}

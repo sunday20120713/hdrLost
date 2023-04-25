@@ -1,0 +1,35 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - JKSandBoxManager (0.1.7.4)
+  - SSZipArchive (2.4.3)
+  - ZL3DWebKit (0.1.0):
+    - JKSandBoxManager
+    - SSZipArchive
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - ZL3DWebKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+    - JKSandBoxManager
+    - SSZipArchive
+
+EXTERNAL SOURCES:
+  ZL3DWebKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  JKSandBoxManager: 2b88fe036d52f23277563bf2a59b591adb6a1c75
+  SSZipArchive: fe6a26b2a54d5a0890f2567b5cc6de5caa600aef
+  ZL3DWebKit: c3f4d33ed6cfea2d3046175ec67f79a53d33068e
+
+PODFILE CHECKSUM: 9a7a045c9e32e7d887c333bada198d7c74a8be1d
+
+COCOAPODS: 1.11.3

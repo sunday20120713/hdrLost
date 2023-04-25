@@ -1,0 +1,6 @@
+framework module ZL3DWebKit {
+  umbrella header "ZL3DWebKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
